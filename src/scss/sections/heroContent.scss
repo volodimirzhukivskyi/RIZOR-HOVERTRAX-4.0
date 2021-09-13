@@ -1,0 +1,166 @@
+.heroContent{
+  margin-bottom: 100px;
+
+  &__wrapper{
+    display: flex;
+
+    justify-content: flex-end;
+
+
+  }
+  &__img-wrapper{
+    width: 50%;
+
+  }
+  &__img-wrapper--hidden{
+    width: 50%;
+
+  }
+  &__img-cog{
+    position: absolute;
+    max-height: 50%;
+
+
+  ;
+  }
+  &__img{
+    max-width: 100%;
+  ;
+  }
+  &-text{
+
+  }
+}
+.heroContent-text{    top: 240px;
+  position: absolute;
+  text-align: left;
+  right: 43%;
+  max-width: 400px;
+  text-transform: uppercase;
+  font-weight: 900;
+
+  &__title{
+   font-size: 60px;
+
+  }
+  &__text{max-width: 300px;
+padding: 30px 0;
+    font-size: 20px;
+    &--hidden{
+      display: none;
+    }
+  }
+  &__img{
+    padding-left: 20px;
+  }
+}
+.button{
+  cursor: pointer;
+  background: url(../img/right_arrow.png)no-repeat right;
+  padding: 0 40px;
+  &__wrapper--hero-position{
+  position: relative;
+    bottom: 533px;
+    left: 221px;
+}
+  &__wrapper--features-position{
+    position: relative;
+    bottom: 120px;
+    right: 95px;
+
+  }
+  &__wrapper span{
+    display: inline-block;
+    background: darkgrey;
+    position: absolute;
+  }
+  &__circle--hero{
+    bottom: 0;
+    left: -1px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+
+  }
+  &__circle--features{
+     bottom: 95px;
+     left: 5px;
+     width: 5px;
+     height: 5px;
+     border-radius: 50%;
+
+   }
+  &__line--hero-long{
+    bottom: -55px;
+    height: 55px;
+    width: 2px;
+
+  }
+  &__line--hero-short{
+    bottom: -55px;
+    left: -17px;
+    height: 2px;
+    width: 17px;
+  }
+  &__line--features-long{
+    left: 6px;
+    bottom: 95px;
+    height: 207px;
+    width: 2px;
+  }
+  &__line--features-short{
+    bottom: 302px;
+    left: -182px;
+    height: 2px;
+    width: 190px;
+  }
+  &__text{
+    user-select: none;
+    writing-mode: vertical-lr;
+    text-align: end;
+    padding-bottom: 20px;
+  }
+  &__text-wrapper{
+    display: flex;
+  }
+
+}
+.scrollbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  top: 15%;
+  right: 50px;
+  z-index: 1;
+
+  &__long-line{
+    width: 1px;
+    height: 350px;
+    background: #5148F9;
+    display: inline-block;
+  }
+  &__circle{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%
+  ;
+    color: transparent;
+    cursor: pointer;
+    background: #5148F9;
+    margin: 15px 40px ;
+  }
+  &__circle:hover{display: flex;
+    align-items: center;
+justify-items: center;
+    transform: scale(2.5);
+    color: #0b214a;
+   margin-right: 40px;
+font-weight: bold;
+    font-size: 9px;
+    text-decoration: none;
+  }
+
+}
+

@@ -1,0 +1,43 @@
+.select__wrapper{
+  display: none;
+  }
+details > summary {
+  padding: 5px;
+  background-color: #eee;
+  color: #333;
+  border: 1px #ccc solid;
+  cursor: pointer;
+
+  list-style-type: disc;  /* задаем маркер*/
+}
+
+details > div {
+  right: 30px;
+  position: absolute;
+  background: white;
+  border: 1px #ccc solid;
+  padding: 10px;
+}
+
+details[open] > summary {
+  color:#eee;
+  background-color:#333;
+}
+details[open] .wrapper__menu {
+  animation: slide .3s ease-in-out;
+}
+
+@keyframes slide {
+  0%    {opacity: 0; transform:  translate(0, -10px); }
+  100%  {opacity: 1; transform:  translate(0, 0);}
+}
+.wrapper__menu{
+&-link{
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  text-transform: uppercase;
+
+}
+
+}

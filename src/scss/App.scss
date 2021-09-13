@@ -1,0 +1,25 @@
+
+.container{
+  max-width: 1200px;
+
+  margin: 0 auto;
+}
+html body{
+   height: 100%;
+ }
+.app__wrapper{
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+::-webkit-scrollbar{
+  width: 0;
+}
+@import "reset";
+
+@import "sections/header";
+@import "sections/heroContent";
+@import "sections/main";
+@import "sections/footer";
+@import "sections/menu";
+@import "allMedia";
