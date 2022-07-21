@@ -15,6 +15,15 @@ margin: 50px 20px 20px;
     font-size: 14px;
     text-transform: uppercase;
     margin-right: 60px;
+
+  }
+  &__link {
+   padding: 10px;
+
+  }
+  &__link:hover{
+    text-shadow: #7351f5 1px 0 10px;
+
   }
 }
 details summary.btn::-webkit-details-marker {

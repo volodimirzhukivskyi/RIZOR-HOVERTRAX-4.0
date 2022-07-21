@@ -1,5 +1,6 @@
-import React, { useEffect } from "react";
-import Tab from "../Tab/Tab";
+import React from "react";
+import Tab from "../../components/Tab/Tab";
+import { links } from "../../helpers/links";
 
 const HeroContent = () => {
   return (
@@ -49,30 +50,15 @@ const HeroContent = () => {
 
       <div className="scrollbar">
         <span className="scrollbar__long-line" />
-        <Tab
-          className="scrollbar__circle"
-          elUrlNav="/#"
-          style={{ border: "2px solid blue", backgroundColor: "white" }}
-          text={"Главная"}
-        />
-        <Tab
-          className="scrollbar__circle"
-          elUrlNav="/#section-one"
-          style={{ border: "2px solid blue", backgroundColor: "white" }}
-          text={"Преимущества"}
-        />
-        <Tab
-          className="scrollbar__circle"
-          elUrlNav="/#section-two"
-          style={{ border: "2px solid blue", backgroundColor: "white" }}
-          text={"Характеристики"}
-        />
-        <Tab
-          className="scrollbar__circle"
-          elUrlNav="/#section-three"
-          style={{ border: "2px solid blue", backgroundColor: "white" }}
-          text={"Для кого"}
-        />
+        {links.map((link, i) => (
+          <Tab
+            key={i}
+            className="scrollbar__circle"
+            url={link.url}
+            style={{ border: "2px solid blue", backgroundColor: "white" }}
+            text={link.name}
+          />
+        ))}
         <span className="scrollbar__long-line" />
       </div>
     </section>

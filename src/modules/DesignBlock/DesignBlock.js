@@ -69,7 +69,7 @@ const DesignBlock = () => {
         <h2 className="DesignBlock__title">
           4.0
           <br />
-          RIzor
+          Rizor
         </h2>
       </div>
     </section>

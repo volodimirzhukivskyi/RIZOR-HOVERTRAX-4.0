@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import Header from "./modules/Header/Header";
-import HeroContent from "./modules/HeroContent/HeroContent";
 import Main from "./modules/Main/Main";
 import Footer from "./modules/Footer/Footer";
 
