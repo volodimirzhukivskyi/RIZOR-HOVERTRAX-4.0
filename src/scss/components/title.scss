@@ -1,0 +1,43 @@
+.title-h1 {
+  font-size: 60px
+}
+
+.title-h2 {
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 40px;
+}
+
+.title-h3 {
+  color: #3A30F8;
+  padding: 60px 0;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1024px) {
+  .title-h2 {
+    padding-bottom: 20px;
+  }
+  .title-h3 {
+    padding: 0 0 30px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .title-h1 {
+    font-size: 40px;
+  }
+  .title-h2 {
+  }
+  .title-h3 {
+  }
+}
+
+@media (max-width: 425px) {
+  .title-h3 {
+    padding: 10px 0 20px 0;
+  }
+
+}

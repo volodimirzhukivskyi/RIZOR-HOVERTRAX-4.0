@@ -17,7 +17,13 @@ position: relative;
    }
 
 &__wrapper-img{
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 500px;
+  background: url("/img/geroscooter.png") no-repeat ;
+  background-size: contain;
 }
   &__title{
     position: absolute;
@@ -62,18 +68,8 @@ position: relative;
     content: url("/img/short_black_line.png");
 padding-right: 10px;
   }
-  &__general-title{
-    color: #3A30F8;
-    padding: 60px 0;
-    font-size: 15px;
-    text-transform: uppercase;
-  }
-  &__block-title{
-    font-size: 40px;
-    font-weight: bold;
-    text-transform: uppercase;
-    padding-bottom: 40px;
-  }
+
+
 }
 .DesignBlock-card{
   padding-top:260px;
@@ -83,11 +79,7 @@ padding-right: 10px;
 
     margin-left: 80px
   }
-  &__title{
-    font-size: 40px;
-    font-weight: bold;
-    text-transform: uppercase;
-    padding-bottom: 30px;}
+
 
   &__text{
     font-size: 18px;

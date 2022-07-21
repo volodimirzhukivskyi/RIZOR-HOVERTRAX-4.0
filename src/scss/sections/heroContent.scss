@@ -39,10 +39,7 @@
   text-transform: uppercase;
   font-weight: 900;
 
-  &__title{
-   font-size: 60px;
 
-  }
   &__text{max-width: 300px;
 padding: 30px 0;
     font-size: 20px;
@@ -55,9 +52,7 @@ padding: 30px 0;
   }
 }
 .button{
-  cursor: pointer;
-  background: url(../img/right_arrow.png)no-repeat right;
-  padding: 0 40px;
+
   &__wrapper--hero-position{
   position: relative;
     bottom: 533px;

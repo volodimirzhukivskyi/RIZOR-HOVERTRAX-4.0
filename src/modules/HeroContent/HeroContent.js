@@ -1,6 +1,8 @@
 import React from "react";
 import Tab from "../../components/Tab/Tab";
 import { links } from "../../helpers/links";
+import Title from "../../components/Title/Title";
+import TvButton from "../../components/TvButton/TvButton";
 
 const HeroContent = () => {
   return (
@@ -14,7 +16,7 @@ const HeroContent = () => {
           />
         </div>{" "}
         <div className="heroContent__text heroContent-text">
-          <h1 className="heroContent-text__title">RIzor Hovertrax 4.0</h1>
+          <Title tag={"h1"}>RIzor Hovertrax 4.0</Title>
           <p className="heroContent-text__text">
             Маневренность, легкость, экологичность
           </p>
@@ -27,13 +29,7 @@ const HeroContent = () => {
             <span className="button__circle button__circle--hero" />
             <span className="button__line button__line--hero-long" />
             <span className="button__line button__line--hero-short" />
-            <div className="button__text-wrapper">
-              <p className="button__text">
-                Смотреть <br />
-                видео
-              </p>
-              <button className="button" />
-            </div>
+            <TvButton text={true} />
           </div>
         </div>
         <div className="heroContent__img-wrapper">

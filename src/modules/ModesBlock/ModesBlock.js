@@ -1,6 +1,9 @@
 import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Title from "../../components/Title/Title";
+import TvButton from "../../components/TvButton/TvButton";
+import { modes } from "../../helpers/itemsList";
 const ModesBlock = () => {
   useEffect(() => {
     Aos.init({ duration: 2000 });
@@ -9,14 +12,16 @@ const ModesBlock = () => {
     <section className="ModesBlock" id="section-two">
       <img className="ModesBlock__img" src="/img/cog_wheel.png" alt="" />
       <div data-aos="fade-up" className="ModesBlock__text-wrapper">
-        <h3 className="text__block-title text__title-features">режимы</h3>
+        <Title tag={"h2"}>режимы</Title>
+
         <ul className="text__list">
           Помимо «умной» подсветки, <span>Hovertrax 4.0</span> снабжён двумя
           скоростными режимами.
-          <li className="text__list-item">
-            Один для продвинутых пользователей
-          </li>
-          <li className="text__list-item">Второй для новичков</li>
+          {modes.map((item, i) => (
+            <li key={i} className="text__list-item">
+              {item}
+            </li>
+          ))}
         </ul>
         <div className="text__features text-features">
           <div className=" text-features__block">
@@ -42,13 +47,7 @@ const ModesBlock = () => {
           <span className="button__circle button__circle--features" />
           <span className="button__line button__line--features-long" />
           <span className="button__line button__line--features-short" />
-          <div className="button__text-wrapper">
-            <p className="button__text">
-              Смотреть <br />
-              видео
-            </p>
-            <button className="button" />
-          </div>
+          <TvButton />
         </div>
       </div>
     </section>

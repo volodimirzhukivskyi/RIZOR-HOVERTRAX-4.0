@@ -1,236 +1,278 @@
+@media (max-width: 1024px) {
+  .button {
+    &__wrapper span {
+      display: none
+    }
 
-@media (max-width:1024px) {
-.button{
-  &__wrapper span{
-  display: none}
-  &__wrapper--hero-position{
-    bottom: 340px;
-  }
+    &__wrapper--hero-position {
+      bottom: 340px;
+    }
 
   }
-  .heroContent{
+  .heroContent {
     &-text {
       top: 140px;
       right: 40%;
+
       &__img {
         display: none;
       }
     }
   }
-  .DesignBlock{
+  .DesignBlock {
 
-    &-card{
-      padding-top:350px ;
+    &-card {
+      padding-top: 350px;
     }
-    &__wrapper-content{
-      width: 50%;}
-  &-img__block {
-    top: 40%;}
-  &__wrapper-content {
 
-    flex-wrap: wrap;
+    &__wrapper-content {
+      width: 50%;
+    }
 
+    &-img__block {
+      top: 40%;
+    }
+
+    &__wrapper-content {
+
+      flex-wrap: wrap;
+
+    }
+
+    &__title {
+      font-size: 140px;
+    }
   }
-  &__title{
-    font-size: 140px;
-  }}
-  .ModesBlock{
+  .ModesBlock {
     &__text-wrapper {
 
       padding: 0 50px 0 40px;
     }
   }
-  .text{
+  .text {
     width: auto;
-    &__general-title{
-      padding: 0 0 30px 0;
+
+
+  }
+  .fitsWho {
+    flex-wrap: wrap;
+    justify-content: center;
+
+    &__img-wrapper {
+      width: 100%;
     }
-   &__block-title{
-     padding-bottom: 20px;
-   }
+
+    &__title {
+      padding-bottom: 30px;
+    }
+
+    &__text-block {
+      padding: 40px 0 80px;
+      width: 600px;
+    }
+
+    &__button {
+      margin-left: 30%;
+    }
+
+    &__img {
+      position: static;
+    }
+
+    &__img-cog {
+      display: none;
+    }
   }
-.fitsWho{
-  flex-wrap: wrap;
-  justify-content: center;
-  &__img-wrapper{
-    width: 100%;
-  }
-  &__title{
-    padding-bottom: 30px;
-  }
-  &__text-block {
-    padding: 40px 0 80px;
-  width: 600px;}
-  &__button{
-    margin-left: 30%;
-  }
-  &__img{
-    position: static;
-  }
-  &__img-cog{
-    display: none;
-  }
-}
 }
 
 
-@media (max-width:768px){
-  .top-nav__menu{display: none}
-  .select__wrapper{
+@media (max-width: 768px) {
+  .top-nav__menu {
+    display: none
+  }
+  .select__wrapper {
     display: block;
   }
-  .heroContent{
-    &__img-cog{
-    max-height: 35%;
-  }
+  .heroContent {
+    &__img-cog {
+      max-height: 35%;
+    }
+
     &-text {
       top: 110px;
       max-width: 250px;
-&__title{
-  font-size: 40px;
 
-}
 
-      &__text{
+      &__text {
         padding: 20px 0;
         font-size: 15px;
       }
     }
   }
-  .button__text-wrapper{
+  .button__text-wrapper {
     display: none;
   }
-  .DesignBlock{
+  .DesignBlock {
     justify-content: flex-end;
     flex-wrap: wrap;
-&-card{
-  padding-top:20px ;
-}
-    &__wrapper-content{
-      width:100%;
-      justify-content: normal;}
-    &-img__block {
-      top: 40%;}
 
-    &__title{
+    &-card {
+      padding-top: 20px;
+    }
+
+    &__wrapper-content {
+      width: 100%;
+      justify-content: normal;
+    }
+
+    &-img__block {
+      top: 40%;
+    }
+
+    &__title {
       font-size: 90px;
       top: 92px;
       right: 200px;
-    }}
-  .ModesBlock{margin: 100px 0 100px 0;
+    }
+  }
+  .ModesBlock {
+    margin: 100px 0 100px 0;
     flex-wrap: wrap;
+
     &__text-wrapper {
-width: auto;
+      width: auto;
       padding: 0 85px 20px 20px;
     }
- &__img-wrapper{
-   width: 60%;
- } }
-  .fitsWho{
-&__button{
-  margin-left: 25%;
-}
+
+    &__img-wrapper {
+      width: 60%;
+    }
+  }
+  .fitsWho {
+    &__button {
+      margin-left: 25%;
+    }
+
     &__text-block {
       padding: 40px 30px 80px;
-      width: 600px;}
+      width: 600px;
+    }
 
-    &__img{
+    &__img {
       position: static;
     }
-    &__img-cog{
+
+    &__img-cog {
       height: auto;
     }
-    }
-  .scrollbar{
+  }
+  .scrollbar {
     display: none;
-  }}
+  }
+}
 
-@media (max-width:425px){
-  .heroContent{margin-bottom: 50px;
+@media (max-width: 425px) {
+  .heroContent {
+    margin-bottom: 50px;
+
     &__img-wrapper {
       width: 100%
     }
-    &__img-cog {display: none
+
+    &__img-cog {
+      display: none
     }
-    &__wrapper{
+
+    &__wrapper {
       display: block;
     }
-    &-text {position: static;
+
+    &-text {
+      position: static;
       max-width: 100%;
-    &__text{
-      display: none;
-      &--hidden{display: block;
-        font-weight: bold}
+
+      &__text {
+        display: none;
+
+        &--hidden {
+          display: block;
+          font-weight: bold
+        }
+      }
     }
-    }}
-  .text{
-    &__title-features{
+  }
+  .text {
+    &__title-features {
       transform: rotate(-90deg);
       padding-top: 155px;;
     }
-    &__general-title{
-      padding: 10px 0 20px 0;
-    }
-    &__block-title{
 
-    }
+
     &__list-item {
       padding-top: 10px;
     }
   }
   .DesignBlock {
-    &__title{
+    &__title {
       display: none;
     }
+
     &-card {
 
       &__img-line {
         display: none;
       }
 
-      &__title {
-        padding-bottom: 15px;
-      }
+
     }
   }
   .block__wrapper {
-    padding: 10px 0;}
+    padding: 10px 0;
+  }
 
-  .ModesBlock{
+  .ModesBlock {
     flex-wrap: wrap;
+
     &__text-wrapper {
       width: auto;
       display: flex;
-padding: 0;
+      padding: 0;
     }
-    &__img{
+
+    &__img {
       max-width: 100%;
     }
-    &__img-wrapper{
-      padding-top: 20px ;
-width: 100%;
-    } }
-.text-features{
-  flex-wrap: wrap;
-  &__number{
-    padding: 0;
+
+    &__img-wrapper {
+      padding-top: 20px;
+      width: 100%;
+    }
   }
-&__block{
-  padding: 10px;
-  width: 100px;
-}
-}
-  .fitsWho{
-    &__button{
+  .text-features {
+    flex-wrap: wrap;
+
+    &__number {
+      padding: 0;
+    }
+
+    &__block {
+      padding: 10px;
+      width: 100px;
+    }
+  }
+  .fitsWho {
+    &__button {
       margin-left: 15%;
       font-size: 14px;
     }
+
     &__text-block {
       padding: 20px 30px 40px;
-      }
+    }
 
 
-  }}
+  }
+}
 
 
 
