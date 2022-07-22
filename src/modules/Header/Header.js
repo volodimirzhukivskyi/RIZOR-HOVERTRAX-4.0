@@ -24,7 +24,11 @@ const Header = () => {
           className="top-nav__logo"
           url="/"
           text={
-            <img className="top-nav__logo" src="./img/logo.png" alt="logo" />
+            <img
+              className="top-nav__logo"
+              src={`${process.env.PUBLIC_URL}/img/logo.png`}
+              alt="logo"
+            />
           }
         />
         <nav className="top-nav__menu">

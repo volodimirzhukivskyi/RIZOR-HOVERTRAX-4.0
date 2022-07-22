@@ -39,7 +39,7 @@ const ModesBlock = () => {
       <div data-aos="zoom-in-up" className="ModesBlock__img-wrapper">
         <img
           className="ModesBlock__img-pic"
-          src="/img/geroscooter_ride.png"
+          src={`${process.env.PUBLIC_URL}/img/geroscooter_ride.png`}
           alt=""
         />
         <div className="button__wrapper  button__wrapper--features-position ">

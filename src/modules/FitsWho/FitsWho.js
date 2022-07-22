@@ -7,7 +7,11 @@ const FitsWho = () => {
   }, []);
   return (
     <section className="fitsWho" id="section-three">
-      <img className="fitsWho__img-cog" src="/img/cog_wheel.png" alt="" />
+      <img
+        className="fitsWho__img-cog"
+        src={`${process.env.PUBLIC_URL}/img/cog_wheel.png`}
+        alt=""
+      />
       <div data-aos="flip-right" className="fitsWho__text-block">
         <h3 className="fitsWho__title">для кого</h3>
         <p className="fitsWho__text">
@@ -23,7 +27,7 @@ const FitsWho = () => {
       <div data-aos="zoom-out-left" className="fitsWho__img-wrapper">
         <img
           className="fitsWho__img"
-          src="/img/people_with_geroscooters.png"
+          src={`${process.env.PUBLIC_URL}/img/people_with_geroscooters.png`}
           alt=""
         />
       </div>

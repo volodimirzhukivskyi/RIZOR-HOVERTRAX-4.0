@@ -3,7 +3,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import Title from "../../components/Title/Title";
 import TvButton from "../../components/TvButton/TvButton";
-import { design, designItems } from "../../helpers/itemsList";
+import { designItems } from "../../helpers/itemsList";
 import { colors } from "../../helpers/colors";
 import ColorBlock from "../../components/ColorBlock/ColorBlock";
 const DesignBlock = () => {
@@ -45,12 +45,12 @@ const DesignBlock = () => {
 
           <img
             className="DesignBlock-card__img"
-            src="/img/product_geroscuter.png"
+            src={`${process.env.PUBLIC_URL}/img/product_geroscuter.png`}
             alt="product_geroscuter"
           />
           <img
             className="DesignBlock-card__img-line"
-            src="/img/card_line.png"
+            src={`${process.env.PUBLIC_URL}/img/card_line.png`}
             alt=""
           />
         </div>

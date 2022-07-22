@@ -11,7 +11,7 @@ const HeroContent = () => {
         <div className="heroContent__img-wrapper">
           <img
             className="heroContent__img-cog"
-            src="/img/cog_wheel.png"
+            src={`${process.env.PUBLIC_URL}/img/cog_wheel.png`}
             alt=""
           />
         </div>{" "}
@@ -22,7 +22,7 @@ const HeroContent = () => {
           </p>
           <img
             className="heroContent-text__img"
-            src="/img/down_arrow.png"
+            src={`${process.env.PUBLIC_URL}/img/down_arrow.png`}
             alt=""
           />
           <div className="button__wrapper button__wrapper--hero-position">
@@ -35,7 +35,7 @@ const HeroContent = () => {
         <div className="heroContent__img-wrapper">
           <img
             className="heroContent__img"
-            src="/img/close-up_geroscooter.png"
+            src={`${process.env.PUBLIC_URL}/img/close-up_geroscooter.png`}
             alt=""
           />
           <p className="heroContent-text__text heroContent-text__text--hidden">
