@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "https://volodimirzhukivskyi.github.io/RIZOR-HOVERTRAX-4.0/static/css/main.0788b1c0.chunk.css",
+    "main.js": "https://volodimirzhukivskyi.github.io/RIZOR-HOVERTRAX-4.0/static/js/main.e29e43f8.chunk.js",
+    "main.js.map": "https://volodimirzhukivskyi.github.io/RIZOR-HOVERTRAX-4.0/static/js/main.e29e43f8.chunk.js.map",
+    "runtime-main.js": "https://volodimirzhukivskyi.github.io/RIZOR-HOVERTRAX-4.0/static/js/runtime-main.dee94786.js",
+    "runtime-main.js.map": "https://volodimirzhukivskyi.github.io/RIZOR-HOVERTRAX-4.0/static/js/runtime-main.dee94786.js.map",
+    "static/css/2.7fc9bc2b.chunk.css": "https://volodimirzhukivskyi.github.io/RIZOR-HOVERTRAX-4.0/static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.f8a8a3a3.chunk.js": "https://volodimirzhukivskyi.github.io/RIZOR-HOVERTRAX-4.0/static/js/2.f8a8a3a3.chunk.js",
+    "static/js/2.f8a8a3a3.chunk.js.map": "https://volodimirzhukivskyi.github.io/RIZOR-HOVERTRAX-4.0/static/js/2.f8a8a3a3.chunk.js.map",
+    "index.html": "https://volodimirzhukivskyi.github.io/RIZOR-HOVERTRAX-4.0/index.html",
+    "static/css/2.7fc9bc2b.chunk.css.map": "https://volodimirzhukivskyi.github.io/RIZOR-HOVERTRAX-4.0/static/css/2.7fc9bc2b.chunk.css.map",
+    "static/css/main.0788b1c0.chunk.css.map": "https://volodimirzhukivskyi.github.io/RIZOR-HOVERTRAX-4.0/static/css/main.0788b1c0.chunk.css.map",
+    "static/js/2.f8a8a3a3.chunk.js.LICENSE.txt": "https://volodimirzhukivskyi.github.io/RIZOR-HOVERTRAX-4.0/static/js/2.f8a8a3a3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dee94786.js",
+    "static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.f8a8a3a3.chunk.js",
+    "static/css/main.0788b1c0.chunk.css",
+    "static/js/main.e29e43f8.chunk.js"
+  ]
+}
