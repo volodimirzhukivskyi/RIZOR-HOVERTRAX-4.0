@@ -10,7 +10,6 @@ const ModesBlock = () => {
   }, []);
   return (
     <section className="ModesBlock" id="section-two">
-      <img className="ModesBlock__img" src="/img/cog_wheel.png" alt="" />
       <div data-aos="fade-up" className="ModesBlock__text-wrapper">
         <Title tag={"h2"}>режимы</Title>
 

@@ -53,6 +53,7 @@ const HeroContent = () => {
             url={link.url}
             style={{ border: "2px solid blue", backgroundColor: "white" }}
             text={link.name}
+            rightMenu={true}
           />
         ))}
         <span className="scrollbar__long-line" />

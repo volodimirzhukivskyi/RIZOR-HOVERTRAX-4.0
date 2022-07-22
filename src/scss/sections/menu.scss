@@ -2,13 +2,14 @@
   display: none;
   }
 details > summary {
+  background: #4237F7;
   padding: 5px;
-  background-color: #eee;
-  color: #333;
+  color: white;
+  font-weight: bold;
   border: 1px #ccc solid;
   cursor: pointer;
-
-  list-style-type: disc;  /* задаем маркер*/
+  border-radius: 10px;
+  list-style-type: none;
 }
 
 details > div {
@@ -16,7 +17,7 @@ details > div {
   position: absolute;
   background: white;
   border: 1px #ccc solid;
-  padding: 10px;
+  padding: 10px 0;
 }
 
 details[open] > summary {

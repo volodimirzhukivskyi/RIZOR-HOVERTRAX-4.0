@@ -1,0 +1,14 @@
+.tab__div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tab__span{
+  opacity: 0;
+  color: #0b214a;
+  font-weight: bold;
+  font-size: 18px;
+}
+.tab__div:hover .tab__span{
+  opacity: 1;
+}

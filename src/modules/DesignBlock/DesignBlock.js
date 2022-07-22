@@ -4,6 +4,8 @@ import "aos/dist/aos.css";
 import Title from "../../components/Title/Title";
 import TvButton from "../../components/TvButton/TvButton";
 import { design, designItems } from "../../helpers/itemsList";
+import { colors } from "../../helpers/colors";
+import ColorBlock from "../../components/ColorBlock/ColorBlock";
 const DesignBlock = () => {
   useEffect(() => {
     Aos.init({ duration: 2000 });
@@ -35,11 +37,9 @@ const DesignBlock = () => {
               Модель представлена сразу в нескольких цветах.{" "}
             </p>
             <div className="block__wrapper">
-              <span className="block__color block__color--yellow" />
-              <span className="block__color block__color--blue" />
-              <span className="block__color block__color--red" />
-              <span className="block__color block__color--grey" />
-              <span className="block__color block__color--black" />
+              {colors.map((color, i) => (
+                <ColorBlock key={i} color={color} />
+              ))}
             </div>
           </div>
 

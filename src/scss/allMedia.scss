@@ -196,7 +196,9 @@
 
         &--hidden {
           display: block;
-          font-weight: bold
+          font-weight: bold;
+          padding: 10px 10px 0;
+
         }
       }
     }
@@ -225,7 +227,9 @@
 
 
     }
-  }
+    &__wrapper-img {
+      height: 330px;
+  }}
   .block__wrapper {
     padding: 10px 0;
   }

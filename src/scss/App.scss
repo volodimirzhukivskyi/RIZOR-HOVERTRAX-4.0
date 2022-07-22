@@ -1,4 +1,6 @@
-
+*{
+  font-family: 'Open Sans', sans-serif;
+}
 .container{
   max-width: 1200px;
 
@@ -8,12 +10,16 @@ html body{
    height: 100%;
  }
 .app__wrapper{
+  overflow: hidden;
   min-height: 100%;
   display: flex;
   flex-direction: column;
 }
 ::-webkit-scrollbar{
   width: 0;
+}
+details summary::-webkit-details-marker {
+  display: none
 }
 @import "reset";
 
@@ -23,5 +29,6 @@ html body{
 @import "sections/footer";
 @import "sections/menu";
 @import "components/title";
-@import "src/scss/components/tvButton";
+@import "components/tvButton";
+@import "components/tab";
 @import "allMedia";
