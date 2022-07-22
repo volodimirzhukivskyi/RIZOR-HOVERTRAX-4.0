@@ -238,9 +238,12 @@
     flex-wrap: wrap;
 
     &__text-wrapper {
+      padding: 10px;
       width: auto;
       display: flex;
-      padding: 0;
+      & > h2{
+        display: none;
+      }
     }
 
     &__img {
